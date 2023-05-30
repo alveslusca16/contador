@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: purple;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador {
+    background-color: gray;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border: 1.5px solid;
+}
+
+#tela {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.button {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.button button {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.button label {
+    font-size: 25px;
+}
+.button input {
+    width: 90px;
+    height: 50px;
+    padding: 0px 5px;
+}
+
+.button button:hover {
+    box-shadow: 1px 2px 1px black;
+}
